@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>BUILD BRIGHT UNIVERSITY TAKEO CAMPUS</title>
+    <link rel="shortcut icon" href="images/Logo.png" type="images">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>   
+            <a href="index.html"><img src="images/Logo.png"></a>
+            <div class="nav-links" id="nav-Links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>    
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="policy.html">POLICY</a></li>
+                    <li><a href="qna.html">Q&A</a></li>
+                    <li><a href="vsi.html">Vision, Mission & Strategic Goals</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+<div class="container">
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="images/BBUSL1jpg.jpg"></div>
+          <div class="swiper-slide"><img src="images/BBUSL2.png"></div>
+          <div class="swiper-slide"><img src="images/BBUSL3.png"></div>
+          <div class="swiper-slide"><img src="images/BBUSL4.jpg"></div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+</div>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script>
+
+const swiper = new Swiper('.swiper', {
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+        },
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+
+</script>
+
+</section>
+<section class="text-box">  
+        <h1>BUILD BRIGHT UNIVERSITY TAKEO CHAMPUS</h1>
+        <p>Sen Sok Leap Building, Phum 1, Sangkat Rokanoung, Krong Doun Kaev, Takeo Province<br>(Near the Hall of Fame Takeo)</p>
+        <a href="https://www.bbu.edu.kh" class="hero-btn">Visit Us To Know More</a>
+</section>
+
+<!----course---->
+<section class="course">    
+    <h1>Academics</h1>
+    <p1>BUILD BRIGHT UNIVERSITY PHNOM PENH</p1>
+    <div class="row">
+        <div class="course-col">
+            <h3>Associat Degree and Bachelor's Degree</h3>
+            <p>Economics and Agricultural Science<br>Business Administration<br>Tourism and Hospitality<br>Science and Technology<br>Law and Science<br>etc.</p>
+        </div>
+        <div class="course-col">
+            <h3>Master's Degree Programs</h3>
+            <p>Master's Degree Programs<br>Master of Business Administration<br>Master of Science<br>Master of Education</p>
+        </div>
+        <div class="course-col">
+            <h3>Doctoral Degree</h3>
+            <p>Doctor of Philosophy (Ph.D.) in Management<br>Doctor of Philosophy (Ph.D.) in Economics</p>
+        </div>
+    </div>
+
+</section>
+
+<!------campus------>
+
+<section class="campus">
+    <h1>Our Champuses</h1>
+    <p1>Just Show Few</p1>
+
+    <div. class="row">
+        <div class="campus-col">
+            <img src="images/BBUPP.jpg">
+            <div class="layer">
+                <h3><a href="https://www.bbu.edu.kh">PHNOM PENH</a></h3>
+                
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/BBUSR.jpg">
+            <div class="layer">
+                <h3><a href="https://bbu.edu.kh/campus/sr/">SIEM REAP</a></h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/BBUBTB.jpg">
+            <div class="layer">
+                <h3><a href="https://bbu.edu.kh/campus/bb/">BATTAM BANG</a></h3>
+            </div>
+        </div>
+    </div.>
+
+</section>
+
+<!------Facilities------>
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p1>In Our Building</p1>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/BBUTKLB.jpg">
+            <h3>Our Library</h3>
+            <p1>Have all kinds of book for student to study and research more about thier Assighment.</p1>
+        </div>
+        <div class="facilities-col">
+            <img src="images/BBUTKLAP.jpg">
+            <h3>Our Laboratory</h3>
+            <p1>We have alot of Desktop for student.</p1>
+        </div>
+        <div class="facilities-col">
+            <img src="images/BBUTKCLASS.jpg">
+            <h3>Our Classes</h3>
+            <p1>Full of study equiment modern chair table etc.</p1>
+        </div>
+    </div>
+
+</section>
+
+<!------Footer------>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p1>info@tk.bbu.edu.kh<br>bbu.edu.kh/campus/tk<br>+855-32 931 031,(NHEM SAMUTH) 012 495 234<br>Sen Sok Leap Building, Phum 1, Sangkat Rokanoung, Krong Doun Kaev, Takeo Province (Near the Hall of Fame Takeo)</p1>
+
+</section>
+
+
+
+
+<!------JavaScript for Toggle Menu------>    
+<script>
+
+    var navLinks = document.getElementById("navlinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>    
+
+</body>
+</html>
